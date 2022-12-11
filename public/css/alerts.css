@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+.w3-panel h3{
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight:400;margin:10px 0;
+	width: 85%;
+	font-size:14px
+}
+
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-tooltip,.w3-display-container{position:relative}
+.w3-display-topright{position:absolute;right:0;top:0}
+.w3-container,.w3-panel{padding:0.01em 16px}
+.w3-panel{
+	width: 95%;
+	margin: auto;
+	
+}
+.w3-allign{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.w3-large{font-size:16px!important}
+.w3-button:hover{
+	color: #b91010 !important;
+}
+
+/* Colors */
+.w3-blue,.w3-hover-blue:hover{
+	color: #084298;
+	background-color: #cfe2ff;
+	border: 1px solid #b6d4fe;
+	border-radius: 5px;
+}
+.w3-green,.w3-hover-green:hover{
+	color: #0f5132;
+	background-color: #d1e7dd;
+	border: 1px solid #badbcc;
+	border-radius: 5px;
+}
+.w3-red,.w3-hover-red:hover{
+	color: #842029;
+	background-color: #f8d7da;
+	border: 1px solid #f5c2c7;
+	border-radius: 5px;
+}
+.w3-yellow,.w3-hover-yellow:hover{
+	color: #664d03;
+	background-color: #fff3cd;
+	border: 1px solid #ffecb5;
+	border-radius: 5px;
+}
+.alert-row-img {
+	width: 16px;
+	margin: 11px 0;
+	margin-right: 7px;
+}
+
+.alert-row-img img{
+	width: 100%;
+}
+
+.alert-row {
+	display: flex;
+}

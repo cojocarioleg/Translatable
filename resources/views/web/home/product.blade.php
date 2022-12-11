@@ -9,10 +9,13 @@
               <h3>{{ $product->__('title') }}</h3>
               <p>{{ $product->price }}</p>
               <p>
-                  <form action="#" method="POST">
-                  <button type="submit" class="btn btn-primary" role="button">В корзину</button>                               
-                  <a href="{{ route('showProduct', $product->slug) }}" class="btn btn-default" role="button">Подробнее</a>                       
-                  
+                  <form action="{{ route('cart_add', $product) }}" method="POST">
+                    @csrf
+                    <button type="submit" class="btn btn-primary" role="button">
+                      В корзину
+                    </button> 
+                    <a href="{{ route('showProduct', $product->slug) }}" class="btn btn-default" role="button">Подробнее</a>   
+                  </form> 
               </p>
           </div>
       </div>

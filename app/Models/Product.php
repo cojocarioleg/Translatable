@@ -71,4 +71,11 @@ class Product extends Model
         }
         return asset('uploads/'.$this->image);
     }
+
+    public function getPriceForCount(){
+        if (!is_null($this->pivot)) {
+            return $this->pivot->count * $this->price;
+        }         
+        return $this->price ;
+    }
 }

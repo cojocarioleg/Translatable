@@ -13,6 +13,7 @@
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/starter-template.css') }}" rel="stylesheet">
     <link href="{{ asset('css/lang.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/alerts.css') }}" rel="stylesheet" >
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
